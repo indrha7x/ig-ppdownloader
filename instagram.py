@@ -22,7 +22,6 @@ def main(username):
         id = soup.find_all('script')
         id = re.search('''"id":"(.*)","is_business_account''', str(id)).group(1)
     except:
-        print bcolors.MERAH
         print('Gagal!')
         return
     user_info = json.loads(requests.get('https://i.instagram.com/api/v1/users/{}/info/'.format(id)).text)
