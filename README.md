@@ -5,4 +5,7 @@ Required :
 - beautifulsoup4
 - requests
 
+Usage :
+instagram.py username
+
 Bugs? Contact me indra@sumihai.co.id
