@@ -8,4 +8,4 @@ Required :
 Usage :
 instagram.py username
 
-Bugs? Contact me indra@sumihai.co.id
+Bugs? Contact me@kirnath.dev
